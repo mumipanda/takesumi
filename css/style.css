@@ -1,0 +1,723 @@
+.l-top{
+  width: 70%;
+  margin: 0 auto;
+}
+.l-top h1{
+  font-size: 1.5rem;
+  font-family: "りょうゴシック PlusN";
+  padding-top: 259px;
+}
+.l-top data{
+  font-size:0.75rem;
+  font-family: "りょうゴシック PlusN";
+  color: #A0A0A0;
+}
+
+.p-sns__flex{
+  display: flex;
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+.p-sns__flex i{
+  padding: 5px;
+}
+
+.balloon-right span{
+  background: #E9E9E9;
+  height: 1rem;
+  width: 1px;
+  position: absolute;
+  left: 30px;
+  bottom: 1rem;
+}
+.balloon-right button{
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-width: 105px;
+  margin-right: 15px;
+  padding: 9px;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333333;
+}
+.fa-solid{
+  padding-right: 10px;
+}
+
+.balloon-right button:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -30px;
+  margin-top: -14px;
+  border: 14px solid transparent;
+  border-left: 14px solid #E9E9E9;
+  z-index: 1;
+}
+.balloon-right button:before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -24px;
+  margin-top: -12px;
+  border: 12px solid transparent;
+  border-left: 12px solid #FFF;
+  z-index: 2;
+}
+
+.balloon-right p {
+  margin: 0;
+  padding: 0;
+}
+
+.l-top__layout{
+  position: relative;
+}
+
+.l-top__title{
+  position: absolute;
+  top:20px;
+  left: 16px;
+  padding: 35px;
+  background-color:  rgba(255,255,255,0.67);
+  border-radius: 67px;
+}
+.l-top h2{
+  font-size: 1.4375rem;
+  font-family: "筑紫A丸ゴシック";
+}
+.l-top h3{
+  font-size: 2.215rem;
+  font-family: "筑紫A丸ゴシック";
+  color: #128412;
+}
+
+.l-top img{
+  width: 100%;
+}
+.p-top__article{
+  width: 70%;
+  margin: 50px auto;
+}
+  .p-top__article p{
+    padding-bottom: 2rem;
+  }
+
+  .p-deodorize__img{
+    width: 100%;
+  }
+
+  .l-index{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .l-index h4{
+    background-color: #EB6A7A;
+    color: #FFF;
+    font-family: "りょうゴシック PlusN";
+    text-align: center;
+    padding: 14px 0;
+  }
+  .l-index ol {
+    list-style: none; /* デフォルトのリストスタイルを無効にする */
+    counter-reset: my-counter;
+    padding: 30px;
+  }
+  .l-index ol li:before {
+    content: counter(list-item, decimal-leading-zero)"."; /* カウンターの値を表示 */
+    color: #EB6A7A; /* 数字の色を指定 */ 
+    margin-right: 5px; /* 数字とテキストの間隔を調整 */
+    font-family: "りょうゴシック PlusN";
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  .l-index li{
+    font-weight: bold;
+    border-bottom: 1px solid #D5D5D5;
+    padding: 0.5rem;
+  }
+  .c-title{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .c-title h3{
+    font-family: "りょうゴシック PlusN";
+    font-size: 1.5rem;
+    background-color: #FFF8F8;
+    padding: 15px 0 15px 40px;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .c-title h3:before{
+    content: "";
+    position: absolute;
+    height: 2rem;
+    width: 8px;
+    background-color: #EB6A7A;
+    left: 20px;
+  }
+
+  .c-title h3 span{
+    color: #EB6A7A;
+  }
+  .p-origin__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+  }
+  .p-origin__grid img{
+    width: 100%;
+  }
+
+  .c-title h5{
+    font-size: 1rem;
+    font-family: "りょうゴシック PlusN";
+    font-weight: bold;
+    padding-bottom: 0.4rem;
+    border-bottom: 3px solid #EB6A7A;
+    margin-bottom: 2rem;
+  }
+
+  .p-article p{
+    padding-bottom: 2rem;
+    line-height: 2rem;
+    font-family: "りょうゴシック PlusN";
+  }
+
+  .p-layout__pink{
+    color: #EB6A7A;
+    font-size: 1.125rem;
+    font-weight: bold;
+  }
+
+  .p-layout__UnderBar{
+    background: linear-gradient(transparent 50%, #FAECA2 0%);
+    font-weight: bold;
+  }
+
+  .c-point{
+    background-color: #EB6A7A;
+    width: 88px;
+    height: 28px;
+    color: #FFF;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    padding: 6px;
+    font-family: "りょうゴシック PlusN";
+    position: relative;
+    left: 1rem;
+  }
+
+  .c-point__content{
+    background-color: #F2F2F2;
+    padding: 28px 0 27px 25px;
+    border-radius: 15px;
+    margin-bottom: 59px;
+  }
+  .c-point__content p{
+    padding-bottom: 0;
+  }
+
+  .p-origin img{
+    width: 100%;
+  }
+
+  .p-process img{
+    width: 100%;
+    margin-bottom: 50.5px;
+  }
+
+  .p-function__grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-between;
+  }
+  .p-function__grid img{
+    width: 80%;
+  }
+
+  .p-function__grid cite,
+  .p-environment cite{
+    font-size: 0.75rem;
+    color: #A0A0A0;
+    font-family: "りょうゴシック PlusN";
+  }
+
+  .p-PinkArera{
+    background-color: #FFF8F8;
+    padding: 30px 27px 0 27px;
+    font-family: "りょうゴシック PlusN";
+    margin-bottom: 30px;
+  }
+  .p-PinkArera__title{
+    font-size: 1.375rem;
+    color: #EB6A7A;
+    padding-bottom: 20px;
+  }
+
+  .p-PinkArea__content{
+    padding-bottom: 30px;
+  }
+
+  .p-culture img{
+    width: 100%;
+  }
+
+  .p-culture__flex{
+    display: flex;
+    justify-content: space-between;
+  }
+  .p-culture__flex img{
+    width: 45%;
+    margin-bottom: 40px;
+  }
+
+  .p-environment img{
+    width: 100%;
+  }
+
+  .p-environment__grid{
+    display: flex;
+    justify-content: space-between;
+  }
+  .p-environment__grid img{
+    width: 45%;
+    margin-bottom: 30px;
+  }
+  .u-environment{
+    margin-bottom: 30px;
+  }
+
+  .p-design__flower{
+    width: 100%;
+  }
+
+  .p-design__flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .p-design__bamboo{
+    width: 55%;
+  }
+  .p-design__charcoal{
+    width: 40%;
+  }
+  .p-PinkArea__flex{
+    display: flex;
+    padding-bottom: 30px;
+  }
+
+  .u-PinkArea{
+   padding-left: 26px; 
+  }
+  .p-BambooHealth__img{
+    width: 100%;
+  }
+
+  .p-BambooHealth{
+    margin-bottom: 70px;
+  }
+
+  .p-celebration__img{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .p-celebration__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 50px;
+  }
+  .p-celebration__grid img{
+    width: 90%;
+    margin: 5%;
+  }
+
+  .u-link__pink{
+    color: #EB6A7A;
+  }
+
+  .p-nature h4{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .p-comparison{
+    position: absolute;
+    top: -45px;
+    left: -87px;
+}
+
+  .p-comparison__layout{
+    position: relative;
+    width: 360px;
+    width: fit-content;
+    margin: auto;
+  }
+  .l-waterserver{
+    margin-top: 200px;
+    text-align: center;
+  }
+  .l-waterserver table th{
+    background-color: #EB6A7A;
+    color: #FFF;
+    font-size: 1rem;
+    padding: 13px 26px 14px 26px;
+    font-weight: 100;
+  }
+  .l-waterserver table th:nth-of-type(5){
+    padding: 0 26px;
+  }
+
+  .l-waterserver table tr:nth-of-type(2n-1) td{
+    background-color: #FFF8F8;
+  }
+  .l-waterserver table tr:nth-of-type(2n) td{
+    background-color: #FFF;
+  }
+
+  .l-waterserver table tr td:nth-of-type(1),
+  .l-waterserver table tr th:nth-of-type(1){
+    position: sticky;
+    left: 0;
+    z-index: 2;
+  }
+  .l-waterserver table tr td:nth-of-type(1)::before{
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .l-waterserver table tr td:nth-of-type(2){
+    color: #EB6A7A;
+    padding: 0 26px;
+  }
+
+  .l-waterserver table tr td:nth-of-type(3){
+    color: #EB6A7A;
+    font-weight: bold;
+  }
+
+  .l-waterserver table tr td:nth-of-type(3) span{
+    color: #000;
+    font-weight: 100;
+  }
+
+  .l-waterserver table tr td:nth-of-type(4){
+    font-weight: bold;
+  }
+  .l-waterserver table tr td:nth-of-type(5){
+    font-size: 0.75px;
+    padding: 0 17px;
+  }
+
+  .l-waterserver table tr td:nth-of-type(6){
+    font-size: 0.875px;
+  }
+
+  .p-table__wrap{
+    overflow-x: scroll;
+    position: relative;
+    margin-bottom: 118px;
+  }
+  .p-table__wrap table{
+    width: 100%;
+    border-collapse: collapse;
+    white-space: nowrap;
+  }
+  .l-waterserver table img{
+    padding: 15px;
+  }
+
+  .p-ScrollImg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+  }
+  @media screen and (max-width: 1110px){
+    .p-ScrollImg{
+      display: block;
+    }
+  }
+  .fadeout{
+      -moz-animation: cssAnimation 0s ease-in 3s forwards;
+      -webkit-animation: cssAnimation 0s ease-in 3s forwards;
+      -o-animation: cssAnimation 0s ease-in 3s forwards;
+      animation: cssAnimation 0s ease-in 3s forwards;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+  }
+    @keyframes cssAnimation {
+      to {
+          width:0;
+          height:0;
+          overflow:hidden;
+      }
+  }
+  @-webkit-keyframes cssAnimation {
+      to {
+          width:0;
+          height:0;
+          visibility:hidden;
+      }
+  }  
+
+  .p-campaign{
+    font-family: "りょうゴシック PlusN";
+    margin-bottom: 51px;
+    margin: 0 auto;
+    display: grid;
+  }
+
+  .p-campain__copy{
+    color: #EB6A7A;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    width: fit-content;
+    left: calc(50% - 166px);
+  }
+
+  .p-campain__btn{
+    background-color: #EB6A7A;
+    color: #FFF;
+    width: 500px;
+    border-radius: 43px;
+    height: 85px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 9px;
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin: 0 auto;
+  }
+
+  .p-campain__btn:hover{
+    background-color: #EB4257;
+  }
+
+  .p-campaign__comment{
+    font-size: 0.875rem;
+    padding-bottom: 51px;
+  }
+  .p-campaign__comment span{
+    color: #F01414;
+    font-weight: bold;
+  }
+
+  .p-campaign__price{
+    font-size: 1.375rem;
+  }
+
+  .p-buy__btn{
+    color: #EB6A7A;
+    width: 500px;
+    border-radius: 43px;
+    height: 85px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 24px;
+    display: inline-block;
+    font-weight: bold;
+    border: 2px solid #EB6A7A;
+    margin-bottom: 51px;
+  }
+  .p-buy__btn:hover{
+    color: #EB4257;
+  }
+
+
+  .p-takesumi__btn{
+    color: #FFF;
+    background-color: #7E7E7E;
+    width: 500px;
+    border-radius: 43px;
+    height: 85px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 24px;
+    display: inline-block;
+    margin-bottom: 51px;
+  }
+  .p-takesumi__btn:hover{
+    background-color: #535353;
+  }
+
+  .p-campaign__detail{
+    color: #FFF;
+    background-color: #CEB019;
+    width: 500px;
+    border-radius: 43px;
+    height: 85px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 24px;
+    display: inline-block;
+    margin-bottom: 751px;
+  }
+
+  .p-campaign__detail:hover{
+    background-color: #B59A0F;
+  }
+
+  .p-btn__layout{
+    display: inline-flex;
+    flex-direction: column;
+  }
+  .p-campain__copy span{
+    background: #EB6A7A;
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 2px;
+  }
+  .p-campain__copy span:nth-of-type(1){
+    height: 1.34rem;
+    transform: rotate(-24deg);
+    bottom: 7px;
+    left: -13px;
+  }
+  .p-campain__copy span:nth-of-type(2){
+    height: 0.78rem;
+    transform: rotate(-30deg);
+    bottom: 7px;
+    left: -19px;
+  }
+
+  .p-campain__copy span:nth-of-type(3){
+    height: 1.34rem;
+    transform: rotate(24deg);
+    bottom: 7px;
+    right: -13px;
+  }
+
+  .p-campain__copy span:nth-of-type(4){
+    height: 0.78rem;;
+    transform: rotate(30deg);
+    bottom: 7px;
+    right: -19px;
+  }
+
+  .p-sns__sp{
+    display: none;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 0.8rem;
+  }
+  .p-facebook__sp{
+    background-color: #576DA6;
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    width: 120px;
+  }
+  .p-twitter__sp{
+    background-color: #60C2F1;
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    width: 120px;
+  }
+  .p-URL__sp{
+    background-color: #333333;
+    color: #FFF;
+    padding: 10px;
+    font-size: 0.8rem;
+    margin: 10px;
+    width: 120px;
+  }
+
+  .p-sns__sp span{
+  background: #E9E9E9;
+  height: 0.8rem;
+  width: 1px;
+  position: absolute;
+  left: 30px;
+  bottom: 1rem;
+}
+.p-sns__sp ::before{
+  padding-right: 10px;
+}
+
+.p-goodbtn{
+  margin-left: 20px;
+  display: none;
+}
+  /*media Queries 767
+----------------------------------------------------*/
+@media screen and (max-width: 767px){
+  .l-top{
+    width: 90%;
+  }
+  .c-title{
+    width: 90%;
+  }
+  .p-top__article{
+    width: 90%;
+  }
+  .l-index{
+    width: 90%;
+  }
+  .p-article p{
+    font-size: 0.875rem;
+  }
+  .p-function__grid{
+    display: block;
+  }
+  .p-function__grid img{
+    width: auto;
+  }
+  .u-function{
+    display: table;
+    margin: 0 auto;
+  }
+  .p-culture__flex,
+  .p-environment__grid,
+  .p-design__flex{
+    flex-direction: column;
+  }
+  .p-culture__flex img,
+  .p-environment__grid img,
+  .p-design__bamboo {
+    width: 100%;
+  }
+  .p-design__charcoal {
+    width: fit-content;
+    display: block;
+    margin: 30px auto;
+  }
+  .p-PinkArea{
+    font-size: 0.875rem;
+  }
+  .p-PinkArea__flex {
+    flex-direction: column;
+  }
+  .p-PinkArea__flex img{
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .p-PinkArera__title {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .p-campain__copy{
+    font-size: 1.25rem;
+    left: calc(50% - 138px);
+  }
+  .p-sns__sp{
+    display: flex;
+  }
+  .p-goodbtn{
+    display: block;
+  }
+}
